@@ -1,12 +1,16 @@
 import React from 'react';
 
+interface Appstate{
+  user: 
+}
 
-export class App extends React.Component{
+
+export class App extends React.Component<{},{}>{
 
 
   render(){
     return(
-      <div>App from Class Works!!</div>
+      <div>DTP App from Class Works!!</div>
     )
   }
 }
