@@ -1,7 +1,8 @@
 import React from 'react';
+import { User } from '../model/Model'
 
 interface Appstate{
-  user: 
+  user: User | undefined
 }
 
 
