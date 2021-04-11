@@ -10,11 +10,10 @@ interface Appstate{
 export class App extends React.Component<{},{}>{
 
   private authservice: AuthService = new AuthService();
-  
 
   render(){
     return(
-      <div>DTP App from Class Works!!</div>
+      <div>App from Class Works!!</div>
     )
   }
 }
